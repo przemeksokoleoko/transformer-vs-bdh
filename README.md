@@ -90,10 +90,3 @@ A practical checklist you can follow to raise the experiment to a more reproduci
 1. Add a small driver script or a unit-test-like harness that runs the same experiment over 10 seeds and produces aggregated plots.
 2. Add explicit logging to a CSV or JSONL file (step, seed, loss, acc, runtime). This enables plotting and comparison externally.
 3. Add a short README (this file) that documents how to run and how to reproduce the main figures.
-
----
-
-If you'd like, I can also:
-- prepare a pull request with these README changes,
-- implement the multi-seed harness and CI-friendly tests,
-- or add one or two of the baseline models and run a quick multi-seed experiment locally (note: I can't run training here, but I can prepare the code changes for you to run).
