@@ -3,7 +3,7 @@
 This diagram compares the two architectures at the same abstraction level: both receive the same input representation, then process it through separate computation paths before producing their own logits.
 
 ```mermaid
-flowchart LR
+flowchart TB
     A["Input tokens"] --> B["Embedding"]
     B --> C["LayerNorm"]
 
